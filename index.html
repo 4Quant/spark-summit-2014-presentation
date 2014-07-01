@@ -1,42 +1,34 @@
 <!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Spark-summit-2014-presentation by 4Quant</title>
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Spark-summit-2014-presentation</h1>
+        <p>The presentation at Spark Summit 2014 showing how 4Quant does production scale image processing and analysis using Spark</p>
 
-  <title>Spark-summit-2014-presentation</title>
-  <meta name="description" content="Scaling Up Fast: Real-time Image Processing and Analytics using Spark Kevin Mader (ETH Zurich) Imaging experiments involving complex specimens like full-animals, vascular structures in brain, or cellular material rheology are difficult or impossible to accurately characterize by eye and thus require computationally intensive algorithms to extract meaningful quantitative information from them. With improvements in flux, detector efficiency, and reconstruction algorithms, the rate at which image data is produced using Synchrotron-based X-ray Tomographic Microscopy is staggering. At the TOMCAT beamline of the Swiss Light Source, this rate reaches 8GB per second of image data[1], higher than even multinational companies with dedicated IT staff like Facebook or Instagram usually handle. We have developed a scalable framework based on Apache Spark and the Resilient Distributed Datasets proposed in [2] for parallel, distributed, real-time image processing and quantitative analysis. The cluster-/cloud-based evaluation tool performs filtering, segmentation and shape analysis enabling data exploration and hypothesis testing over millions of structures with the time frame of an experiment. The tools have been tested with clusters containing thousands of machines and images containing more than 100 billion voxels. The flexible infrastructure offers a full spectrum of shape, distribution, and connectivity metrics for cellular materials and networks and can be adapted to a wide variety of new studies requiring high sample counts ranging from long-term dynamics and evolution experiments to investigations of drug-gene interactions. Finally we examine the potential for real-time approximate analysis as compared with region of interest selection and down-sampling as a superior approach for speeding up post-processing.  Kevin Mader is a lecturer in the X-ray Microscopy Group within the Department for Information Technology and Electrical Engineering at ETH Zurich. His research focuses on turning big hairy 3D images into simple, robust, reproducible numbers without resorting to black boxes or magic. In particular, as part of several collaborations, he is currently working on automatically segmenting full animal zebrafish images, characterizing rheology in 3D flows, and measuring viral infection dynamics in cell lines.">
+        <p class="view"><a href="https://github.com/4Quant/spark-summit-2014-presentation">View the Project on GitHub <small>4Quant/spark-summit-2014-presentation</small></a></p>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-</head>
-
-<body>
-
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Spark-summit-2014-presentation</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">Scaling Up Fast: Real-time Image Processing and Analytics using Spark Kevin Mader (ETH Zurich) Imaging experiments involving complex specimens like full-animals, vascular structures in brain, or cellular material rheology are difficult or impossible to accurately characterize by eye and thus require computationally intensive algorithms to extract meaningful quantitative information from them. With improvements in flux, detector efficiency, and reconstruction algorithms, the rate at which image data is produced using Synchrotron-based X-ray Tomographic Microscopy is staggering. At the TOMCAT beamline of the Swiss Light Source, this rate reaches 8GB per second of image data[1], higher than even multinational companies with dedicated IT staff like Facebook or Instagram usually handle. We have developed a scalable framework based on Apache Spark and the Resilient Distributed Datasets proposed in [2] for parallel, distributed, real-time image processing and quantitative analysis. The cluster-/cloud-based evaluation tool performs filtering, segmentation and shape analysis enabling data exploration and hypothesis testing over millions of structures with the time frame of an experiment. The tools have been tested with clusters containing thousands of machines and images containing more than 100 billion voxels. The flexible infrastructure offers a full spectrum of shape, distribution, and connectivity metrics for cellular materials and networks and can be adapted to a wide variety of new studies requiring high sample counts ranging from long-term dynamics and evolution experiments to investigations of drug-gene interactions. Finally we examine the potential for real-time approximate analysis as compared with region of interest selection and down-sampling as a superior approach for speeding up post-processing.  Kevin Mader is a lecturer in the X-ray Microscopy Group within the Department for Information Technology and Electrical Engineering at ETH Zurich. His research focuses on turning big hairy 3D images into simple, robust, reproducible numbers without resorting to black boxes or magic. In particular, as part of several collaborations, he is currently working on automatically segmenting full animal zebrafish images, characterizing rheology in 3D flows, and measuring viral infection dynamics in cell lines.</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/4Quant/spark-summit-2014-presentation/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/4Quant/spark-summit-2014-presentation/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/4Quant/spark-summit-2014-presentation" class="code">View Spark-summit-2014-presentation on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h1>
+        <ul>
+          <li><a href="https://github.com/4Quant/spark-summit-2014-presentation/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/4Quant/spark-summit-2014-presentation/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/4Quant/spark-summit-2014-presentation">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
 <a name="scaling-up-fast-real-time-image-processing-and-analytics-using-spark" class="anchor" href="#scaling-up-fast-real-time-image-processing-and-analytics-using-spark"><span class="octicon octicon-link"></span></a>Scaling Up Fast: Real-time Image Processing and Analytics using Spark</h1>
 
 <h2>
@@ -56,30 +48,19 @@
 </li>
 <li>Quantitative Big Imaging Course at ETH Zurich - <a href="http://bit.ly/1kj9mnq">http://bit.ly/1kj9mnq</a>
 </li>
+<li>Spark on a Sun Grid Engine Cluster - <a href="https://github.com/4Quant/sge_spark">https://github.com/4Quant/sge_spark</a>
+</li>
 <li>The presentation - <a href="https://rawgit.com/4Quant/spark-summit-2014-presentation/master/ssPresentation.html">https://rawgit.com/4Quant/spark-summit-2014-presentation/master/ssPresentation.html</a>
 </li>
 </ul>
-        </article>
-      </div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/4Quant">4Quant</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/4Quant" class="avatar"><img src="https://avatars0.githubusercontent.com/u/6673875?s=60" width="48" height="48"/></a> <a href="https://github.com/4Quant">4Quant</a> maintains <a href="https://github.com/4Quant/spark-summit-2014-presentation">Spark-summit-2014-presentation</a></p>
-
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/4Quant/spark-summit-2014-presentation/tarball/master" class="tar">tar</a><a href="https://github.com/4Quant/spark-summit-2014-presentation/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-            <script type="text/javascript">
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -90,5 +71,5 @@
             } catch(err) {}
           </script>
 
-</body>
+  </body>
 </html>
